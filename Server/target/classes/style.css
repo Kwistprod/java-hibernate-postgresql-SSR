@@ -1,0 +1,131 @@
+body{
+    margin:0 auto;
+    overflow-x: hidden;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    background-color: #f8f7f7;
+    min-height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+html{
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #262626;
+    padding: 1em 25%;
+}
+
+.header-link{
+    text-decoration: none;
+    color:white;
+}
+.task{
+    padding: 2em 5em;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.task input{
+    font-size: 1.2em;
+    padding: .3em 0em;
+    margin: 0 10em 1em;
+}
+.accBut{
+    font-size: 1em;
+    display:block;
+    text-decoration: none;
+    padding: 1em 2em;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.75);
+    transition: background-color .26s ease-in, color .5s linear;
+}
+.accBut:hover{
+    background-color: white;
+    color:black;
+}
+
+.students{
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    padding:.5em .5em;
+
+
+}
+table{
+    border-collapse: collapse;
+    align-content: center;
+    text-align: center;
+    font-size: .7em;
+}
+tr{
+    border-bottom: .1em solid rgba(75, 75, 75, 0.18);
+    transition: .35s linear;
+}
+td,th{
+    align-content: center;
+    padding: .8em 1em;
+}
+.tbt{
+    margin-left: 1.5em;
+    padding: .5em .8em;
+    border-radius: .25em;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+.tbt:hover{
+    background-color: white;
+    color:black;
+}
+tr:hover{
+    background-color: rgba(38, 38, 38, 0.51);
+}
+.form-wrap{
+    background-color: #313131;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left:25%;
+    width: 50%;
+    height: 40%;
+    padding: 0;
+}
+.formCont{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:.5em 5em;
+}
+.formCont input{
+    font-size: .5em;
+    margin-bottom: 1em;
+}
+.tbtt{
+    margin-top:1em;
+    font-size: .6em;
+    padding: .5em .8em;
+    border-radius: .25em;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+.tbtt:hover{
+    background-color: white;
+    color:black;
+}
+.close{
+    display:none;
+}
+
